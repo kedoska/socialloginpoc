@@ -18,7 +18,7 @@ export const SocketProvider = ({ children }: { children: ReactNode }) => {
   // Create and memoize the socket connection
   const socket = useMemo(
     () =>
-      io('https://socialloginpoc.webpubsub.azure.com', {
+      io(process.env.EXPO_PUBLIC_SOCKET_URL, {
         path: '/clients/socketio/hubs/Hub',
       }),
     []
