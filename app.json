@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3da40c82-f2a1-41ff-89ec-cd4903e1715a"
+      }
+    },
+    "owner": "tazmoska"
   }
 }
